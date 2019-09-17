@@ -41,6 +41,11 @@ Communications"
 
 * [Go-flows](https://github.com/CN-TU/go-flows)
 
+# Datasets
+* [CICIDS-2015](https://www.unb.ca/cic/datasets/ids-2017.html)
+* [UNSW-NB15](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
+* [ISCX-Bot-2014](https://www.unb.ca/cic/datasets/botnet.html)
+
 # Steps for reproducibility
 
 #### Extraction ####
@@ -90,6 +95,7 @@ The script is run with the correct input files names and will output the followi
 The purpose of each file is described by its name, the last two files contain original labels and predicted labels in addition to the attack name for both test and training sets.
 
 Moreover, more configurations that were not needed in the paper can be set inside (this page will be updated with further instructions)
+
 
 # Contact
 For further information or questions, please contact: `fares.meghdouri@tuwien.ac.at`
