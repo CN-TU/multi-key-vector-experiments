@@ -1,9 +1,10 @@
 # Multi-Key Vector Experiments
+Contact: Fares Meghdouri - fares.meghdouri@tuwien.ac.at
 
-This repository contains scripts used to carry out experiments shown in "Multi-Key Flows for Attack Detection in Encrypted
-Communications"
+This repository contains scripts used in our paper **Cross-Layer Profiling of Encrypted Network Data for Anomaly Detection** accepted at The 7th IEEE International Conference on Data Science and Advanced Analytics (**DSAA 2020**)
 
-# Structure
+# Repository Tree
+
 ```console
 .
 ├── IPsec                                 # IPsec version scripts
@@ -49,7 +50,7 @@ Communications"
 # Steps for reproducibility
 
 #### Extraction ####
-The first step is converting the PCAP files of each dataset into csv files containing network flows. To this end we use GO-flows in addition to the 'Flow Specification' files (1).
+The first step is converting the PCAP files of each dataset into csv files containing network flows. To this end we use Go-flows in addition to the 'Flow Specification' files (1).
 For each specification we extract flows using the following command:
 
 ```console
@@ -94,8 +95,4 @@ The script is run with the correct input files names and will output the followi
 
 The purpose of each file is described by its name, the last two files contain original labels and predicted labels in addition to the attack name for both test and training sets.
 
-Moreover, more configurations that were not needed in the paper can be set inside (this page will be updated with further instructions)
-
-
-# Contact
-For further information or questions, please contact: `fares.meghdouri@tuwien.ac.at`
+Moreover, more configurations that were not needed in the paper can be internally set (this page will be updated with further instructions based on your feedback)
